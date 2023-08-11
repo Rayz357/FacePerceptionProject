@@ -1,4 +1,9 @@
 # FacePerceptionProject
+## Daily Progress:
+8-11
+- 确定数据集和大致问题
+- TD: 弄懂数据集基本操作
+
 A compneuro project about neural activity reflecting face perception 
 ![image](https://github.com/Rayz357/FacePerceptionProject/assets/60376633/d8c271a0-ca08-4035-ada8-78538e745fb5)
 Step 1:  绘图,每一个电极对面部/房子的平均无噪声响应。为进一步分析确定正确的时间间隔，也就是区分面部/房子所需的时间间隔  
@@ -8,6 +13,7 @@ Step 4: 基于TP和FN率计算对象的心理测量表现
 Step 5: 有了已知噪声水平的对象表现，现在可以对视觉响应和有噪声的面部图片进行比较  
 Q6: 能否预测被试的错误 在单个试验中，单通道对刺激的神经响应。如果可以，那么神经活动应该直接反应了对噪声的感知  
 Q7: 基于被试的响应，做一个电极的trail-trail变化性。把这个和一个空模型作比较，  
+
 
 
 
