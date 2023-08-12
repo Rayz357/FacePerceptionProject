@@ -81,7 +81,10 @@ plt.colorbar()
 plt.show()
 #类似的，对43号电极进行绘制
 ```
-Step 1&2完成
+Step 1&2完成  
+绘制出了43，46号电极在不同噪声分布时的dat2响应曲线  
+![image](https://github.com/Rayz357/FacePerceptionProject/assets/60376633/751361c5-13f7-49a8-a660-1b7e7d929742)
+
 ## References:
 - Miller, K. J., Hermes, D., Pestilli, F., Wig, G. S., and Ojemann, J. G. (2017). Face percept formation in human ventral temporal cortex. Journal of neurophysiology 118(5): 2614-2627. doi: 10.1152/jn.00113.2017
 - Miller, K. J., Hermes, D., Witthoft, N., Rao, R. P., and Ojemann, J. G. (2015). The physiology of perception in human temporal lobe is specialized for contextual novelty. Journal of neurophysiology 114(1): 256-263. doi: 10.1152%2Fjn.00131.2015
