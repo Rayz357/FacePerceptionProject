@@ -3,7 +3,7 @@
 8-11
 - 确定数据集和大致问题
 - TD: 弄懂数据集基本操作
-
+8-12: TD：设计一个指标，判断一个电极的响应能否区分面部和房子
 A compneuro project about neural activity reflecting face perception 
 ![image](https://github.com/Rayz357/FacePerceptionProject/assets/60376633/d8c271a0-ca08-4035-ada8-78538e745fb5)
 Step 1:  绘图,每一个电极对面部/房子的平均无噪声响应。为进一步分析确定正确的时间间隔，也就是区分面部/房子所需的时间间隔  
