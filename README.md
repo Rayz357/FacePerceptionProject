@@ -70,6 +70,15 @@ plt.colorbar()
 plt.show()
 #类似的，对43号电极进行绘制
 ```
+
+### Step 2: selectivity index
+```latex
+selectivity index=
+mean response to faces-mean response to houses/mean response to faces+mean response to houses
+```
+这个指数的值范围从-1到1，其中0表示电极对面孔和房屋的响应完全相同，正值表示对面孔的更强响应，负值表示对房屋的更强响应。  
+​
+
 Step 1&2完成  
 绘制出了43，46号电极在不同噪声分布时的dat2响应曲线  
 ![image](https://github.com/Rayz357/FacePerceptionProject/assets/60376633/751361c5-13f7-49a8-a660-1b7e7d929742)
@@ -85,7 +94,8 @@ Step 1&2完成
 -   43号电极在有噪情况下对图片有响应，但不能分辨
 -   43号电极在dat2选取noise==0，分辨能力很不明显，可能是数据太少
 8-13：
-- 
+- 为什么alldata[0]是左脑的电极？
+- TD：归一化选择性指数
 ## References:
 - Miller, K. J., Hermes, D., Pestilli, F., Wig, G. S., and Ojemann, J. G. (2017). Face percept formation in human ventral temporal cortex. Journal of neurophysiology 118(5): 2614-2627. doi: 10.1152/jn.00113.2017
 - Miller, K. J., Hermes, D., Witthoft, N., Rao, R. P., and Ojemann, J. G. (2015). The physiology of perception in human temporal lobe is specialized for contextual novelty. Journal of neurophysiology 114(1): 256-263. doi: 10.1152%2Fjn.00131.2015
