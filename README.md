@@ -90,15 +90,6 @@ Step 1&2完成
 - 确定数据集和大致问题
 - TD: 弄懂数据集基本操作
 
-8-12: 
-- TD：设计一个指标，判断一个电极的响应能否区分面部和房子
-- TD: 电极46对人脸有响应，但这是否意味着人能够感知到人脸呢？什么指标说明人感知到了？
-- 43号电极响应在无噪声情况下可以很好地分辨出房屋，但是加入20%以上噪声就不具备分辨能力。然而46号电极在加入0-60%噪声的条件下仍具有分辨出人脸的能力。有没有能在噪声情况下分辨出房屋的电极？
--   43号电极在有噪情况下对图片有响应，但不能分辨
--   43号电极在dat2选取noise==0，分辨能力很不明显，可能是数据太少
-8-13：
-- 为什么alldata[0]是左脑的电极？
-- TD：归一化选择性指数
 ## References:
 - Miller, K. J., Hermes, D., Pestilli, F., Wig, G. S., and Ojemann, J. G. (2017). Face percept formation in human ventral temporal cortex. Journal of neurophysiology 118(5): 2614-2627. doi: 10.1152/jn.00113.2017
 - Miller, K. J., Hermes, D., Witthoft, N., Rao, R. P., and Ojemann, J. G. (2015). The physiology of perception in human temporal lobe is specialized for contextual novelty. Journal of neurophysiology 114(1): 256-263. doi: 10.1152%2Fjn.00131.2015
